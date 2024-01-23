@@ -1,0 +1,78 @@
+body {
+    background-color: #f0f5f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #3498db;
+    padding: 100px; /* Increased padding */
+    border-radius: 20px; /* Increased border-radius */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+
+h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-top: 5%;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input {
+    padding: 16px; /* Adjusted padding */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 15%;
+    background-color: #2980b9;
+    color: #fff;
+    padding: 18px; /* Adjusted padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    margin-bottom: 5%;
+}
+
+button:hover {
+    background-color: #1c6ca2;
+}
+
+.txt {
+    color: white;
+}
+.txt a {
+    text-decoration: none;
+}
+.txt:hover {
+    transform: scale(1.1);
+}
