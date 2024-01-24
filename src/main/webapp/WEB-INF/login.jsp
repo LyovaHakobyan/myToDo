@@ -9,6 +9,7 @@
 <body>
 <div class="login-container">
     <h2>Login</h2>
+    <p style="color:red; text-align: center" id="msg"></p>
     <%
         String msg = (String) request.getSession().getAttribute("msg");
         if (msg != null) { %>
@@ -18,15 +19,16 @@
         request.getSession().removeAttribute("msg");
     %>
     <form action="login" method="post">
-        <label for="username">Email:</label>
-        <input type="email" id="username" name="email" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
 
-        <button type="submit">Login</button>
+        <button type="submit" id="login">Login</button>
     </form>
     <p class="txt">Not Registered ? <a href="register">Register Here</a></p>
 </div>
+<script src="../js/jsLoginForm.js"></script>
 </body>
 </html>

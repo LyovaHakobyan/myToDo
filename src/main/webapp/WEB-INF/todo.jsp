@@ -12,7 +12,7 @@
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.standalone.min.css">
     <link rel="stylesheet" href="../css/todoCss.css">
-    <script src="../js/todoJS.js"></script>
+    <script src="../js/jsTodo.js"></script>
 </head>
 <body>
 <div class="container m-5 p-2 rounded mx-auto bg-light shadow">

@@ -10,6 +10,7 @@
 <body>
 <div class="register-container">
     <h2>Register</h2>
+    <p style="color:red; text-align: center" id="msg"></p>
     <%
         String msg = (String) request.getSession().getAttribute("msg");
         if (msg != null) { %>
@@ -34,9 +35,10 @@
             <input type="password" id="password" name="password" required>
         </div>
 
-        <button type="submit">Register</button>
+        <button type="submit" id="register">Register</button>
     </form>
     <p class="txt">Have Account ? <a href="login">Login Here</a></p>
 </div>
+<script src="../js/jsRegisterForm.js"></script>
 </body>
 </html>
